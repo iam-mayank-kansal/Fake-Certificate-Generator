@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import html2canvas from "html2canvas"; // Import html2canvas
 import jsPDF from "jspdf"; // Import jsPDF
-import CertificateContext from "../CertificateContext";
+import CertificateContext from "../context/CertificateContext";
 
 function Certificate() {
     const { userDetails } = useContext(CertificateContext);

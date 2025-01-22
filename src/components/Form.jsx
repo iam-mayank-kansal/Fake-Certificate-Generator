@@ -1,6 +1,5 @@
 import React, { useState, useContext } from 'react';
-import CertificateContext from '../CertificateContext';
-import { Navigate } from 'react-router-dom';
+import CertificateContext from '../context/CertificateContext';
 import { useNavigate } from 'react-router-dom';  // Import useNavigate
 
 function Form() {

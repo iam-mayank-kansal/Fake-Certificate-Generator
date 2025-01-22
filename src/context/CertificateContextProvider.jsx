@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import CertificateContext from "./CertificateContext";
+import CertificateContext from "./CertificateContext"
 
 export default function CertificateContextProvider({ children }) {
     const [userDetails, setuserDetails] = useState({});

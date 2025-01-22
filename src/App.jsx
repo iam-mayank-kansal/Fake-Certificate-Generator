@@ -6,7 +6,7 @@ import CertificateDownload from "./pages/CertificateDownload";
 const AppRouter = createBrowserRouter([
   {
       path : "/",
-      element : <h1>Welcoem to Fake Certificate Creation Website</h1>
+      element : <h1 className="text-3xl text-center">Welcoem to Fake Certificate Creation Website go to "/details"</h1>
   },
   {
       path : "/details",
